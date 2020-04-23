@@ -1,0 +1,64 @@
+body {
+	background: #E8E8E8;
+}
+
+#vision-board {
+	background-size: cover;
+	background: url('../img/background.png');
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	height: 850px;
+	margin: 50px auto;
+	overflow: auto;
+	text-transform: uppercase;
+	width: 1200px;
+}
+
+ .block {
+	box-sizing: border-box;
+	float: left;
+	width: 400px;
+}
+
+ .small-block {
+	height: 210px;
+	padding: 20px 40px;	
+}
+
+ .large-block {
+	height: 430px;
+	padding: 70px 40px;
+}
+
+ .center {
+	text-align: center;
+}
+
+ .right {
+	text-align: right;
+}
+
+ .dark-bg {
+	background: #3B3B3B;
+	color: #FFFFFF;
+}
+
+ .light-bg {
+	background: #FFFFFF;
+}
+
+strong {
+	font-size: 38px;
+	line-height: 38px;
+	text-transform: none; 
+}
+
+ .title {
+	font-size: 30px;
+	margin: 10px 0;	
+}
+
+ .top-padding {
+	padding-top: 40px;
+}  
